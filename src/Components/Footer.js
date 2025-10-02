@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../Assets/hero.png';
-import { FaXTwitter } from "react-icons/fa6";
+// import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
@@ -16,7 +16,7 @@ function Footer() {
               <img src={logo} alt='logo'/>
               <p>We specialize in crafting bespoke furniture pieces and curating refined interiors that embody elegance, functionality, and timeless appeal.</p>
               <div className='footer-icons'>
-                <FaXTwitter className='ft-i'/>
+                {/* <FaXTwitter className='ft-i'/> */}
                 <FaFacebook className='ft-i'/>
                 <FaLinkedin className='ft-i'/>
                 <RiInstagramFill className='ft-i'/>
