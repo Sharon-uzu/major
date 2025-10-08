@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../Assets/hero.png';
-import { NavLink } from 'react-router-dom'; // Changed from Link to NavLink
+import { Link, NavLink } from 'react-router-dom'; // Changed from Link to NavLink
 import { CiSearch, CiHeart, CiUser } from "react-icons/ci";
 import { RiShoppingCart2Line } from "react-icons/ri";
 import { HiMenuAlt1 } from "react-icons/hi";
@@ -68,10 +68,10 @@ function Header() {
             <span><CiSearch className='l-i' /></span>
             <span><CiHeart className='l-i' /></span>
             <span><RiShoppingCart2Line className='l-i' /></span>
-            <div className='acct'>
+            <Link to='/login' className='acct'>
               <CiUser className='l-i' />
               <p>Account</p>
-            </div>
+            </Link>
           </div>
         </ul>
       </nav>

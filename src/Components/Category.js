@@ -4,6 +4,7 @@ import img2 from '../Assets/3d-room-interior-with-classic-design-furniture.png';
 import img3 from '../Assets/Rectangle 25 (1).png';
 import { CiSearch } from "react-icons/ci";
 import { IoFilter } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 const items = [
   { id: 1, bgImage: img1, text: 'Resident elegance' },
@@ -56,12 +57,12 @@ function Category() {
       <div className='category-list'>
         {filteredItems.map(({ id, bgImage, text }) => (
           
-          <div className='list1' key={id}>
+          <Link to='/category' className='list1' key={id}>
             <div className='list-c'>
               <img src={bgImage} alt={text} />
               <div><p>{text}</p></div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
