@@ -12,6 +12,7 @@ import ForgotPassword from './Screens/ForgotPassword';
 import Category from './Screens/Category';
 import Order from './Screens/Order';
 import CheckOut from './Screens/CheckOut';
+import Cart from './Screens/Cart';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path="/category" element={<Category />} />
       <Route path="/order" element={<Order />} />
       <Route path="/checkout" element={<CheckOut />} />
+      <Route path="/cart" element={<Cart />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />} />

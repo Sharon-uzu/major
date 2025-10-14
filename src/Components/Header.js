@@ -67,7 +67,7 @@ function Header() {
           <div className='list2'>
             <span><CiSearch className='l-i' /></span>
             <span><CiHeart className='l-i' /></span>
-            <span><RiShoppingCart2Line className='l-i' /></span>
+            <span><Link to='/cart'><RiShoppingCart2Line className='l-i' /></Link></span>
             <Link to='/login' className='acct'>
               <CiUser className='l-i' />
               <p>Account</p>

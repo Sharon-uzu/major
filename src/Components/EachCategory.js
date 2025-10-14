@@ -30,7 +30,7 @@ function EachCategory() {
 
       <div className='feature-list eachcategory'>
         {featuredItems.map(({ id, image, title, price, rating }) => (
-          <Link to='/order' className='feature1' key={id}>
+          <div className='feature1' key={id}>
             <img src={image} alt={title} />
 
             <div className='f1'>
@@ -58,7 +58,7 @@ function EachCategory() {
               <h2>{price}</h2>
               <button>Add to cart</button>
             </div>
-          </Link>
+          </div>
         ))}
       </div>
     </div>

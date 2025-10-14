@@ -271,7 +271,7 @@ linear-gradient(286.75deg, rgba(155, 31, 0, 0.2) 9.4%, rgba(107, 21, 0, 0.2) 37.
 .hero-c div{
   width: 65%;
   margin-bottom: 20px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   gap: 8px;
 }
@@ -285,6 +285,8 @@ linear-gradient(286.75deg, rgba(155, 31, 0, 0.2) 9.4%, rgba(107, 21, 0, 0.2) 37.
   line-height: 21px;
   letter-spacing: 0%;
   width: 75%;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .hero-c div button{
@@ -292,12 +294,12 @@ linear-gradient(286.75deg, rgba(155, 31, 0, 0.2) 9.4%, rgba(107, 21, 0, 0.2) 37.
   border-radius: 7px;
   background: #620120;
   color: #fff;
+  padding: 0 25px;
   font-family: Inter;
   font-weight: 600;
   font-size: 13px;
   border: none;
-  height: 37px;
-  width: 120px;
+  height: 40px;
 }
 .hero-c img{
   width: 100%;
@@ -2853,4 +2855,344 @@ linear-gradient(286.75deg, rgba(155, 31, 0, 0.2) 9.4%, rgba(107, 21, 0, 0.2) 37.
   .cat-order .cat-flexx .cat-txts h4{
     font-size: 20px;
   }
+}
+
+
+/* checkout */
+.checkout{
+  width: 85%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.checkout h1{
+  color: #484848;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.checkout .check-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout .check-flex .check-left{
+  width: 48%;
+  border: 1px solid #D9D9D9;
+}
+.checkout .check-flex .check-left .check-lc{
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.checkout .check-flex .check-left .check-lc h2{
+  color: #0A0D13;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #A3A3A3;
+}
+
+.checkout .check-flex .check-left .check-lc h3{
+  color: #484848;
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.checkout .check-flex .check-left .check-lc .pay-flex{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.checkout .check-flex .check-left .check-lc .pay-flex div{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+}
+
+.checkout .check-flex .check-left .check-lc .pay-flex div span{
+  color: #484848;
+  font-size: 14px;
+}
+
+.checkout .check-flex .check-left .check-lc h4{
+  color: #484848;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.checkout .check-flex .check-left .check-lc .c-input{
+  width: 100%;
+  border: 1px solid var(--stroke-soft-200, #EBEBEB);
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 8px;
+  margin-bottom: 17px;
+}
+
+
+.checkout .check-flex .check-left .check-lc .exp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout .check-flex .check-left .check-lc .exp div{
+  width: 48%;
+}
+
+.checkout .check-flex .check-left .check-lc .save{
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 16px;
+}
+
+.checkout .check-flex .check-left .check-lc .save span{
+  color: #ACACAC;
+  font-weight: 400;
+  font-size: 13px;
+
+}
+.checkout .check-flex .check-left .check-lc button{
+  width: 100%;
+  border-radius: 7px;
+  background: #620120;
+  color: #fff;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 13px;
+  border: none;
+  height: 37px;
+  margin-bottom: 20px;
+}
+
+.checkout .check-flex .check-left .check-lc .pers{
+  color: #ACACAC;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: .6px;
+}
+
+.checkout .check-flex .check-right{
+  width: 48%;
+  border: 1px solid #D9D9D9;
+  background: #F9FAFA;
+}
+
+.checkout .check-flex .check-right .check-rc{
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.checkout .check-flex .check-right .check-rc h2{
+  color: #0A0D13;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #A3A3A3;
+}
+
+.checkout .check-flex .check-right .check-rc .cr-flex{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.checkout .check-flex .check-right .check-rc .cr-flex img{
+  width: 28%;
+  height: 70px;
+  border-radius: 8px;
+
+}
+
+.checkout .check-flex .check-right .check-rc .cr-flex .cr-flex1{
+  width: 68%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout .check-flex .check-right .check-rc .cr-flex .cr-flex1 h3{
+  color: #484848;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+
+.checkout .check-flex .check-right .check-rc .cr-flex .cr-flex1 p{
+  color: #A3A3A3;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.checkout .check-flex .check-right .check-rc .cr-flex .cr-flex1 .cr-i{
+  color: #F20F0F;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.checkout .check-flex .check-right .check-rc .coupon{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #A3A3A3;
+  padding-top: 20px;
+  margin-top: 25px;
+  border-top: 1px solid #A3A3A3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout .check-flex .check-right .check-rc .coupon input{
+  width: 70%;
+  border: 1px solid var(--stroke-soft-200, #EBEBEB);
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 8px;
+}
+
+.checkout .check-flex .check-right .check-rc .coupon button{
+  border-radius: 5px;
+  width: 28%;
+  color: #620120;
+  background: #FFFF99;
+  font-weight: 500;
+  font-size: 13px;
+  border: none;
+  height: 35px;
+}
+
+.checkout .check-flex .check-right .check-rc .subtotal{
+   border-bottom: 1px solid #A3A3A3;
+}
+
+.checkout .check-flex .check-right .check-rc .subtotal div{
+   display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.checkout .check-flex .check-right .check-rc .subtotal div h3{
+  color: #484848;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: 500;
+  font-size: 14px;
+}
+
+.checkout .check-flex .check-right .check-rc .subtotal div p{
+  color: #484848;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: 500;
+  font-size: 14px;
+}
+
+.checkout .check-flex .check-right .check-rc .total{
+  padding-top: 20px;
+}
+
+.checkout .check-flex .check-right .check-rc .total .tot{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout .check-flex .check-right .check-rc .total .tot h3{
+   color: #484848;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: 500;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.checkout .check-flex .check-right .check-rc .total .tot p{
+  color: #a3a3a3;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.checkout .check-flex .check-right .check-rc .total .tot h2{
+  color: #0A0D13;
+  font-weight: 600;
+  font-size: 20px;
+  color: #484848;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+@media (max-width: 1000px){
+  .checkout h1{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 900px){
+  .checkout{
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px){
+  .checkout .check-flex{
+    flex-direction: column;
+  }
+  .checkout .check-flex .check-left{
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .checkout .check-flex .check-right{
+    width: 100%;
+  }
+  .checkout .check-flex .check-right .check-rc .total .tot h2{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px){
+  .checkout h1{
+    font-size: 20px;
+  }
+  .checkout .check-flex .check-right .check-rc .cr-flex .cr-flex1 h3 {
+    font-size: 13px;
+  }
+}
+
+
+/* cart */
+.checkout .cart-flex{
+  justify-content: center;
+}
+
+.checkout .check-flex .check-right .check-rc .proceed button{
+  width: 100%;
+  border-radius: 7px;
+  background: #620120;
+  color: #fff;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 13px;
+  border: none;
+  margin-top: 20px;
+  height: 37px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.checkout .check-flex .check-right .check-rc span{
+  color: #ACACAC;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: .6px;
 }
