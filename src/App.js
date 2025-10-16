@@ -12,6 +12,10 @@ import ForgotPassword from './Screens/ForgotPassword';
 import Category from './Screens/Category';
 import Order from './Screens/Order';
 import CheckOut from './Screens/CheckOut';
+import Cart from './Screens/Cart';
+import Overview from './Dashboard/DashScreens/Overview';
+import Products from './Dashboard/DashScreens/Products';
+import Orders from './Dashboard/DashScreens/Orders';
 
 
 function App() {
@@ -22,6 +26,7 @@ function App() {
       <Route path="/category" element={<Category />} />
       <Route path="/order" element={<Order />} />
       <Route path="/checkout" element={<CheckOut />} />
+      <Route path="/cart" element={<Cart />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />} />
@@ -29,6 +34,12 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/forgotpassword" element={<ForgotPassword />} />
+
+      <Route path="/overview" element={<Overview />} />
+      <Route path="/products" element={<Products />} />
+      <Route path="/orders" element={<Orders />} />
+
+
 
     </Routes>
   );

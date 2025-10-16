@@ -3,67 +3,21 @@ import Header from '../Components/Header';
 import Connect from '../Components/Connect';
 import { MdDeleteForever } from "react-icons/md";
 import img from '../Assets/modern-hotel-room-with-illuminated-pictures 1.png'
+import { Link } from 'react-router-dom';
 
 
-function CheckOut() {
+function Cart() {
   return (
     <div>
         <Header/>
 
         <div className='checkout'>
-            <h1>Living Room / Checkout</h1>
-            <div className='check-flex'>
-                <div className='check-left'>
-                    
-                    <div className='check-lc'>
-                        <h2>Payment</h2>
-                        <h3>Pay with:</h3>
-                        <div className='pay-flex'>
-                            <div>
-                                <input type='radio'/>
-                                <span>Card</span>
-                            </div>
-
-                            <div>
-                                <input type='radio'/>
-                                <span>Bank</span>
-                            </div>
-
-                            <div>
-                                <input type='radio'/>
-                                <span>Transfer</span>
-                            </div>
-
-                        </div>
-
-                        <h4>Card Number</h4>
-                        <input type='text' className='c-input'/>
-
-                        <div className='exp'>
-                            <div>
-                                <h4>Expiry date</h4>
-                                <input type='text' className='c-input'/>
-                            </div>
-                            <div>
-                                <h4>CVV</h4 >
-                                <input type='text' className='c-input'/>
-                            </div>
-                        </div>
-
-                        <div className='save'>
-                            <input type='checkbox'/>
-                            <span>Save card details</span>
-                        </div>
-                        <button>Pay 400,000</button>
-                        <p className='pers'>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
-                    </div>
-                    
-
-                </div>
-
+            <h1>Cart</h1>
+            <div className='check-flex cart-flex'>
+              
                 <div className='check-right'>
                     <div className='check-rc'>
-                        <h2>Order Summary</h2>
+                        <h2>My Cart</h2>
                         <div className='cr-flex'>
                             <img src={img} alt='images'/>
                             <div className='cr-flex1'>
@@ -120,6 +74,9 @@ function CheckOut() {
 
                             
                         </div>
+
+                        <Link to='/checkout' className='proceed'><button>Proceed to checkout</button></Link>
+                        <span>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</span>
                     </div>
                 </div>
             </div>
@@ -133,4 +90,4 @@ function CheckOut() {
   );
 }
 
-export default CheckOut;
+export default Cart;

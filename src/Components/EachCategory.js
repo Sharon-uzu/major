@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
-import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
 import { IoIosStar } from "react-icons/io";
 import { FaRegHeart } from "react-icons/fa6";
 import img1 from '../Assets/Rectangle 32.png';
 import img2 from '../Assets/Rectangle 22.png';
 import img3 from '../Assets/Rectangle 26.png';
-import { Link } from 'react-router-dom';
 
 const featuredItems = [
   { id: 1, image: img1, title: 'Living room', price: '₦700,000', rating: 5 },
@@ -30,7 +27,7 @@ function EachCategory() {
 
       <div className='feature-list eachcategory'>
         {featuredItems.map(({ id, image, title, price, rating }) => (
-          <Link to='/order' className='feature1' key={id}>
+          <div className='feature1' key={id}>
             <img src={image} alt={title} />
 
             <div className='f1'>
@@ -58,7 +55,7 @@ function EachCategory() {
               <h2>{price}</h2>
               <button>Add to cart</button>
             </div>
-          </Link>
+          </div>
         ))}
       </div>
     </div>
