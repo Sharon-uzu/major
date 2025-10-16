@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
-import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
 import { IoIosStar } from "react-icons/io";
 import { FaRegHeart } from "react-icons/fa6";
 import img1 from '../Assets/Rectangle 32.png';
 import img2 from '../Assets/Rectangle 22.png';
 import img3 from '../Assets/Rectangle 26.png';
-import { Link } from 'react-router-dom';
 
 const featuredItems = [
   { id: 1, image: img1, title: 'Living room', price: '₦700,000', rating: 5 },
