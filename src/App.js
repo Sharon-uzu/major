@@ -16,6 +16,7 @@ import Cart from './Screens/Cart';
 import Overview from './Dashboard/DashScreens/Overview';
 import Products from './Dashboard/DashScreens/Products';
 import Orders from './Dashboard/DashScreens/Orders';
+import Review from './Dashboard/DashScreens/Review';
 
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
       <Route path="/overview" element={<Overview />} />
       <Route path="/products" element={<Products />} />
       <Route path="/orders" element={<Orders />} />
-
+      <Route path="/review" element={<Review />} />
 
 
     </Routes>
