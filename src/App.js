@@ -17,6 +17,9 @@ import Overview from './Dashboard/DashScreens/Overview';
 import Products from './Dashboard/DashScreens/Products';
 import Orders from './Dashboard/DashScreens/Orders';
 import Review from './Dashboard/DashScreens/Review';
+import Discount from './Dashboard/DashScreens/Discount';
+import Announcement from './Dashboard/DashScreens/Announcement';
+import AddProducts from './Dashboard/DashScreens/AddProducts';
 
 
 function App() {
@@ -40,6 +43,9 @@ function App() {
       <Route path="/products" element={<Products />} />
       <Route path="/orders" element={<Orders />} />
       <Route path="/review" element={<Review />} />
+      <Route path="/discount" element={<Discount />} />
+      <Route path="/announcement" element={<Announcement />} />
+      <Route path="/addproducts" element={<AddProducts />} />
 
 
     </Routes>

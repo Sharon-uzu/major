@@ -45,7 +45,7 @@ const DashHeader = () => {
 
         <div className="date-range">{getDateRange()}</div>
 
-        <Link to="/add-product" className="add-product-btn">
+        <Link to="/addproducts" className="add-product-btn">
          + Add Product
         </Link>
       </div>
