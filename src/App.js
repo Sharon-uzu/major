@@ -20,6 +20,7 @@ import Review from './Dashboard/DashScreens/Review';
 import Discount from './Dashboard/DashScreens/Discount';
 import Announcement from './Dashboard/DashScreens/Announcement';
 import AddProducts from './Dashboard/DashScreens/AddProducts';
+import Settings from './Dashboard/DashScreens/Settings';
 
 
 function App() {
@@ -46,7 +47,7 @@ function App() {
       <Route path="/discount" element={<Discount />} />
       <Route path="/announcement" element={<Announcement />} />
       <Route path="/addproducts" element={<AddProducts />} />
-
+      <Route path="/settings" element={<Settings />} />
 
     </Routes>
   );
