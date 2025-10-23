@@ -1,5 +1,5 @@
 {
-  "name": "princess",
+  "name": "sintherior",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "firebase": "^10.3.0",
     "flickity": "^2.3.0",
     "framer-motion": "^10.16.1",
+    "lucide-react": "^0.546.0",
     "react": "^18.2.0",
     "react-carousel": "^4.3.0",
     "react-dom": "^18.2.0",
